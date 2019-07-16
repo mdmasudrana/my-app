@@ -20,6 +20,11 @@ Route::post('/contact', 'ContactController@store')->name('contactus');
 Route::get('/news', 'NewsController@index')->name('news');
 Route::post('/news', 'NewsController@store')->name('news');
 
+Route::get('/newsview', 'NewsviewController@index')->name('newsview');
+Route::post('/newsview', 'NewsviewController@store')->name('newsview');
+
+
+
 Route::get('/about', 'AboutController@index')->name('aboutus');
 Route::post('/about', 'AboutController@store')->name('aboutus');
 

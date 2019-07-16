@@ -24,30 +24,6 @@
 
       <option value="usa">USA</option>
     </select>
-
-    <form>
-      <section>
-        <div class="panel panel-header">
-        <div class="row">
-            <div class_col-md-6>
-          <div class="form-group">
-            <input type="text" name="customer_name" class="form-control">
-          </div></div>
-
-            <div class_col-md-6>
-          <div class="form-group">
-            <input type="text" name="customer_name" class="form-control">
-
-
-        </div></div>
-
-
-
-      </section>
-    </form> 
-
-
-
     
     <input type="submit" value="Submit">
   </form>
