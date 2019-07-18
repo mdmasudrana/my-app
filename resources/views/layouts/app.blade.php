@@ -47,7 +47,7 @@
             <a class="navbar-brand" href="{{ url('/home') }}">Home</a>
        
             <a class="navbar-brand" href="{{ url('/news') }}">Add news</a>
-            <a class="navbar-brand" href="{{ url('/view_news') }}">View news</a>
+            <a class="navbar-brand" href="{{ url('/newsview') }}">View news</a>
 
         
             <a class="navbar-brand" href="{{ url('/contact') }}">Contact us </a>

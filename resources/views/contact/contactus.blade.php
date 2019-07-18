@@ -32,6 +32,16 @@
 
     <input type="submit" value="Submit">
   </form>
+<form>
+  <section>
+  <div class="panel panel-header">
+    <div class="form-group">
+      <input type="text" name="customer_name" class="formcontroll">
+    </div>
+
+</form>
+
+
 </div>
 @endsection
 

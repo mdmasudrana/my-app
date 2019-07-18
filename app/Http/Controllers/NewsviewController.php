@@ -17,7 +17,8 @@ class NewsviewController extends Controller
     {
         $newsdata = DB::table('news')->get();
        // print_r($data);
-        return view('news.newsview',compact('newsdata'));
+        return view('newsview.newsview',compact('newsdata'));
+        
     }
 
     /**
@@ -86,8 +87,19 @@ class NewsviewController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    // public function delete(Request $request)
+    // {
+    //     $news = Snews::find($id);
+    //     $news->delete();
+    //     return redirect()->route('newsview.newsview')->with('success', 'Data Deleted');
+    // }
+
+    public function delete(Request $request)
     {
-        //
+        DB::table('news')->where('id', '=', $id)->delete();
+
+        $product->delete();
+  
+    
     }
 }

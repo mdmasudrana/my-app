@@ -4,19 +4,19 @@
          
 
 <div class="container">
-  <form action="news" method="post">
+  <form action="news" method="post" enctype="multipart/form-data">
     {{ csrf_field()}}
-    <label for="fname">address</label>
+    <label for="fname">Title</label>
     <input type="text" id="fname" name="city" placeholder="dhaka">
 
-    <label for="lname">Email</label>
+    <label for="lname">Action</label>
     <input type="text" id="lname" name="village" placeholder="">
 
-    <label for="lname">Enter your phone number</label>
-    <input type="text" id="lname" name="postcode" placeholder="1212">
+    <label for="lname">Topic</label>
+    <input type="text" id="lname" name="postcode" placeholder="">
+    
 
-
-    <label for="country">Country</label>
+    <label for="country">Capital</label>
     <select id="country" name="country">
       <option value="australia">Australia</option>
       <option value="canada">Canada</option>
@@ -24,7 +24,8 @@
 
       <option value="usa">USA</option>
     </select>
-    
+      
+
     <input type="submit" value="Submit">
   </form>
 </div>
